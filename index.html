@@ -8,13 +8,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="product">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <a href="#">Link</a>
-    </div>
-    <div class="product">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <a href="#">Link</a>
-    </div>
+    <table>
+      <thead>
+        <tr class="TableRow">
+          <td>Country</td>
+          <td>OrderID</td>
+          <td>OrderAmount</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1,300</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1002</td>
+          <td>$2000</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1003</td>
+          <td>$1000</td>
+        </tr>
+        <tfoot>
+          <tr class="TableRow">
+            <td>Total</td>
+            <td></td>
+            <td>$5000</td>
+          </tr>
+        </tfoot>
+      </tbody>
+    </table>
   </body>
 </html>
